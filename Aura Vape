@@ -1,0 +1,66 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aura Vape</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      color: violet;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product {
+      background: #222;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px;
+      background: violet;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Aura Vape 💨
+</header>
+
+<div class="container">
+
+  <h2>🔥 Productos destacados</h2>
+
+  <div class="product">
+    <h3>Strawberry Ice Cream</h3>
+    <p>Sabor dulce y cremoso</p>
+    <a class="btn" href="https://wa.me/549XXXXXXXXX">Comprar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Miami Mint</h3>
+    <p>Fresco y potente</p>
+    <a class="btn" href="https://wa.me/549XXXXXXXXX">Comprar por WhatsApp</a>
+  </div>
+
+</div>
+
+</body>
+</html>
