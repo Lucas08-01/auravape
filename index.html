@@ -87,8 +87,9 @@ footer {
 
 <body>
 
-<header>
-  Aura Vape 💨
+<header class="header">
+  <img src="logo.png" alt="Aura Vape Logo">
+  <h1>Aura Vape</h1>
 </header>
 
 <div class="banner">
@@ -191,7 +192,21 @@ class="whatsapp-float" target="_blank">
        alt="WhatsApp">
 
 </a>
+.header {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+}
 
+.header img {
+  width: 120px;
+}
+
+.header h1 {
+  margin: 5px 0 0;
+  color: violet;
+  font-size: 22px;
+}
 <style>
 .whatsapp-float {
   position: fixed;
